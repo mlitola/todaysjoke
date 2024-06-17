@@ -1,15 +1,17 @@
 # todaysjoke
 
-## Description ##
-Just simple command line joker
+### Description
+Just simple command line joker that uses joke endpoint from icanhazdadjoke.com, but you can also use your own endpoint for better laughs.
 
 
-## Compiling ##
-__go build todaysjoke.go__
+### Compiling
+```
+go build todaysjoke.go
 
-## Execution ##
-__./todaysjoke__
+### Execution
+```
+./todaysjoke
 
-## Misc ##
-It is good to laugh at times. Har har...
+### Misc
+__It is good to laugh at times. Har har...__
 
