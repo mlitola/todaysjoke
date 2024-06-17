@@ -35,6 +35,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	fmt.Printf("%s (%s):\n\n", "Todays joke ", time.DateOnly)
+	currentTime := time.Now()
+	fmt.Printf("%s (%s):\n\n", "Todays joke", currentTime.Format("02.01.2006"))
 	fmt.Printf("%s\n\n", body)
 }
